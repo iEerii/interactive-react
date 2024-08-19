@@ -1,0 +1,38 @@
+.btnSubmit {
+    background-color: var(--orange);
+    border: .1rem solid var(--orange);
+    border-radius: 2rem;
+    cursor: pointer;
+    padding: .8rem;
+    width: 100%;
+    color: black;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 700;
+    justify-content: center;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.surveyNumber {
+    display: flex;
+    flex-direction: row;
+    gap: 1.8rem;
+    list-style: none;
+    padding: 1rem 0 1rem;
+}
+
+.surveyNumber li {
+    align-items: center;
+    background-color: #fff7f70c;
+    border-radius: 50%;
+    color: var(--white);
+    cursor: pointer;
+    display: flex;
+    height: 3.6rem;
+    justify-content: center;
+    margin: .5rem 0;
+    width: 4rem;
+}

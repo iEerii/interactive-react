@@ -1,0 +1,11 @@
+.ty-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3.2rem 1.5rem;
+}
+
+.ty-page p {
+    text-align: center;
+}
