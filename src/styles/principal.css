@@ -1,0 +1,79 @@
+.mainContainer {
+    background-color: var(--veryDarkBlue);
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.mainContainer__survey {
+    background-color: var(--darkBlue);
+    border-radius: 2rem;
+    padding: 2rem;
+    max-width: 30rem;
+}
+
+.mainContainer__survey picture {
+    align-items: center;
+    background-color: #fff7f70c;
+    border-radius: 50%;
+    display: flex;
+    height: 4rem;
+    justify-content: center;
+    width: 4rem;
+}
+
+.mainContainer__survey h1 {
+    color: var(	--white);
+    font-size: 2.2rem;
+    font-weight: 700;
+    padding: 2.5rem 0 1rem 0;
+}
+
+.mainContainer__survey p {
+    color: var(--lightGrey);
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+
+.surveyNumber {
+    display: flex;
+    flex-direction: row;
+    gap: 1.8rem;
+    list-style: none;
+    padding: 1rem 0 1rem;
+}
+
+.surveyNumber li {
+    align-items: center;
+    background-color: #fff7f70c;
+    border-radius: 50%;
+    color: var(--white);
+    cursor: pointer;
+    display: flex;
+    height: 3.6rem;
+    justify-content: center;
+    margin: .5rem 0;
+    width: 4rem;
+}
+
+nav {
+    background-color: var(--orange);
+    border: .1rem solid var(--orange);
+    border-radius: 2rem;
+    cursor: pointer;
+    padding: .8rem;
+    width: 100%;
+}
+
+a {
+    color: black;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 700;
+    justify-content: center;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
