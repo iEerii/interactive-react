@@ -2,7 +2,7 @@ import './../styles/principal.css'
 import './../styles/thanksPage.css'
 import { useParams } from 'react-router-dom'
 
-export const ThanksPage = ({svg}) => {
+export const ThanksPage = () => {
     const { rating } = useParams();
 
     return(
