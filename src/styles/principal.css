@@ -1,0 +1,37 @@
+.mainContainer {
+    background-color: var(--veryDarkBlue);
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.mainContainer__survey {
+    background-color: var(--darkBlue);
+    border-radius: 2rem;
+    padding: 2rem;
+    max-width: 30rem;
+}
+
+.mainContainer__survey picture {
+    align-items: center;
+    background-color: #fff7f70c;
+    border-radius: 50%;
+    display: flex;
+    height: 4rem;
+    justify-content: center;
+    width: 4rem;
+}
+
+.mainContainer__survey h1 {
+    color: var(	--white);
+    font-size: 2.2rem;
+    font-weight: 700;
+    padding: 2.5rem 0 1rem 0;
+}
+
+.mainContainer__survey p {
+    color: var(--lightGrey);
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
